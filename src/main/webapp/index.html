@@ -10,5 +10,15 @@
     <li><a href="users">Users</a></li>
     <li><a href="meals">Meals</a></li>
 </ul>
+<br>
+<form method="post"  action="users">
+    <label>
+        <select name="userId" onchange="this.form.submit()" >
+            <option selected disabled>Выберите ID пользователя</option>
+            <option  value="1" >Auth user id = 1</option>
+            <option  value="2">Auth user id = 2</option>
+        </select>
+    </label>
+</form>
 </body>
 </html>
